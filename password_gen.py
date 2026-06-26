@@ -23,6 +23,5 @@ else:
     password = ""
     for i in range (pass_length):
         password += random.choice(char)                    # create loop for password and choose randomly
-    print(password)
+    print(f"YOUR PASSWORD IS : {password}")
 
-    print(len(password))
