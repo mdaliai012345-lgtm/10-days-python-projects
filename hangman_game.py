@@ -1,3 +1,5 @@
+# this is a Hangman game 
+# you have to guess latters of word to find secret word
 import random
 words = ["APPLE","TIGER","PYTHON","LAPTOP","ALI","BAT","CAT"]
 secret= random.choice(words)
