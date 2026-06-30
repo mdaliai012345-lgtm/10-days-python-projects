@@ -1,6 +1,5 @@
-
 from openai import OpenAI
-client = OpenAI(api_key = '''key'')
+client = OpenAI(api_key="YOUR_API_KEY")
 while True:
     user = (input("You: "))
     if user.lower() == "bye":
